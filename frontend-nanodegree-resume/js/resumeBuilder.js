@@ -45,6 +45,10 @@ bio.display = function () {
         .append(formattedWelcome);
     $("#header")
         .append(HTMLskillsStart);
+    $("#footerContacts")
+        .append(formattedMobile);
+    $("#footerContacts")
+        .append(formattedEmail);
 
     for (var i in bio.skills) {
 
